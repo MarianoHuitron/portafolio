@@ -1,0 +1,23 @@
+button.button, a.button {
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    padding: .5rem 1rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    transition: all .5s ease-in;
+    text-align: center;
+}
+
+a.button {
+    background-color: #28df99;
+    text-decoration: none;
+}
+
+button.button:hover, a.button:hover{
+    background: #28df99;
+    border: 2px solid #28df99;
+    cursor: pointer;
+}
+

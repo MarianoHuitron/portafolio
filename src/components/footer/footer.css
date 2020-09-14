@@ -1,0 +1,41 @@
+
+.footer {
+    background-color: #1e2122;
+    padding: 4rem 0;
+}
+
+.social {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer .copy {
+    color: #585a5a;
+    font-size: 1.2rem;
+    padding-top: .5rem;
+    text-align: center;
+    font-weight: 300;
+}
+.footer .copy .year {
+    color: #28df99;
+}
+
+.social .box {
+    background-color: #2d3436;
+    margin: 1rem;
+    padding: 1rem;
+    transition: all .2s ease-in;
+}
+.social .box:hover {
+    cursor: pointer;
+    background-color: #28df99;
+}
+
+.social .box .icon-media {
+    color: #fff;
+    cursor: pointer;
+}
+
+
+

@@ -1,0 +1,46 @@
+.card {
+    max-width: 300px;
+    padding: .5rem;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    margin: .5rem;
+    -webkit-box-shadow: 3px 6px 14px -4px rgba(0,0,0,0.56);
+    -moz-box-shadow: 3px 6px 14px -4px rgba(0,0,0,0.56);
+    box-shadow: 3px 6px 14px -4px rgba(0,0,0,0.56);
+}
+
+.card .card-header {
+    text-align: center;
+}
+
+.card .card-header .card-icon {
+    padding: .8rem 0;
+}
+
+.card .card-header .card-title {
+    color: #2d3436;
+    padding: .8rem 0;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.card .card-body .card-text {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 300;
+    padding: .8rem 0;
+}
+
+.card .card-body .tools {
+    text-align: center;
+    padding: .8rem 0 0 0;
+    color: #28df99;
+}
+
+
+.card .card-body .tools-items {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 300;
+    padding: .8rem 0;
+}

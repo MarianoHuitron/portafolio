@@ -1,13 +1,164 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@100;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Overpass', sans-serif;
+    outline: 0;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+    scroll-behavior: smooth;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    padding: .5rem;
+}
+h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #2d3436;
+}
+
+p{ 
+    font-size: 2rem;
+}
+
+.hero {
+    align-items: center;
+    background: #2d3436;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    width: 100%;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+
+
+
+.line {
+    padding-top: 1rem;
+    width: 80px;
+    margin: 0 auto;
+    border-bottom: 2px solid #28df99;
+}
+
+.sticky + .content {
+    padding-top: 80px;
+}
+
+.content {
+    padding-top: 16px;
+}
+
+section.about {
+    padding-top: 4rem;
+}
+
+.about-text {
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-align: center;
+    padding: 1rem;
+}
+
+#portafolio {
+    padding: 80px 0;
+    background-color: #f0f1f1;
+    position: relative;
+}
+
+.flex-cards {
+    display: flex;
+    margin: 4rem;
+}
+
+.card {
+    max-width: 500px;
+}
+
+
+
+
+
+.contact {
+    padding: 80px 0;
+    background-color: #2d3436;
+    color: #fff;
+}
+.contact > h2 {
+    color: #fff;
+}
+
+.contact .contact-form {
+    padding-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact .contact-form .input-form, .text-area {
+    width: 100%;
+    max-width: 350px;
+    padding: 1rem;
+    font-size: 1rem;
+    background-color: #1e2122;
+    border: 2px solid #1e2122;
+    margin: .4rem;
+    color: #fff;
+}
+.text-area {
+    height: 120px;
+}
+.contact .contact-form .input-form:focus, .text-area:focus {
+    border: 2px solid #28df99;
+}
+
+.loading {
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+
+
+@media (max-width: 377px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+    .contact .contact-form .input-form, .text-area {
+        max-width: 200px;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact .contact-form .input-form, .text-area {
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 950px) {
+    .flex-cards {
+        flex-direction: column;
+        align-items: center;
+        margin: 2rem;
+    }
+
+    .card {
+        max-width: 800px !important;
+    }
 }
