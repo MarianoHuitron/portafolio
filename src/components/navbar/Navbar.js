@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-// import ReactDOM from 'react-dom'
+import Scrollspy from 'react-scrollspy'; 
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './navbar.css';
@@ -16,7 +16,7 @@ export const Navbar = () => {
     }, [])
     
     const handleToogle = () => {
-        const navItems = document.getElementById('nav-items');
+        const navItems = document.querySelector('.nav-items');
         navItems.classList.toggle('show')
     }
 
@@ -39,20 +39,20 @@ export const Navbar = () => {
                 color="white"
                 className="menu-icon" />
 
-            <ul className="nav-items" id="nav-items">
-                <li className="nav-item">
-                    <a href="#home" className="nav-link">Home</a>  
-                </li>
-                <li className="nav-item">
+            <Scrollspy 
+                items={ ['home', 'about', 'portfolio', 'contact'] } 
+                componentTag="ul"
+                currentClassName="active" 
+                className="nav-items" 
+                id="nav-items">
+
+                    <a href="#home" className="nav-link ">Home</a>  
                     <a href="#about" className="nav-link">Sobre mi</a>  
-                </li>
-                <li className="nav-item">
-                    <a href="#portafolio" className="nav-link">Portafolio</a>  
-                </li>
-                <li className="nav-item">
-                    <a href="#contact" className="nav-link">Contácto </a>  
-                </li>
-            </ul>
+                    <a href="#portfolio" className="nav-link">Portafolio</a>  
+                    <a href="#contact" className="nav-link">Contácto </a> 
+                     
+            </Scrollspy>
+                
         </nav>
     )
 }

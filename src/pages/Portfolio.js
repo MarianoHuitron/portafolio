@@ -4,7 +4,7 @@ import { GridItems } from '../components/grid/GridItems'
 import resume from '../assets/MarianoResume.pdf'
 export const Portfolio = () => {
     return (
-        <section id="portafolio">
+        <section id="portfolio">
             <div className="container">
                 <h2>Portafolio</h2>
                 <div className="line"></div>
