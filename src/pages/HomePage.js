@@ -16,7 +16,11 @@ export const HomePage = () => {
         <>
             <header className="hero" id="home">
                 <h1>Hola, Soy <span style={ style }>Mariano Huitron</span>.</h1>
-                <p>Desarrollador web</p>
+                <p>  
+                    <code>
+                        &lt; Desarrollador web /&gt;
+                    </code>
+                </p>
             </header>
             
             <Navbar />
