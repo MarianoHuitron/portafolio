@@ -18,7 +18,7 @@ export const Card = ({ icon, title, desc, tecs }) => {
                 <div className="card-text">
                     { desc }
                 </div>
-                <div className="tools">Tecnoloías</div>
+                <div className="tools">Tecnologías</div>
                 <div className="tools-items">
                    { tecs }
                 </div>

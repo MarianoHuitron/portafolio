@@ -29,7 +29,7 @@ export const About = () => {
                 <h2>Sobre mi</h2>
                 <div className="line"></div>
                 <p className="about-text">
-                    Soy orgullosamente de un pueblo en Nayarit, México. Comencé con mi carrera en TICs en el 2018 y estoy por graduarme. Tengo un especial interés por el desarrollo web y móvil por lo que he realizado algunos proyectos para aprender.
+                    Soy orgullosamente de un pueblo en Nayarit, México. Comencé con mi carrera en TICs en el 2017 y estoy por graduarme. Tengo un especial interés por el desarrollo web y móvil por lo que he realizado algunos proyectos para aprender.
                 </p>
                 
                 <div className="flex-cards">
