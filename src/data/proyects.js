@@ -10,6 +10,9 @@ import flydatadesk from '../assets/img/flydatadesk.png';
 import cards from '../assets/img/cards.png';
 import sisAdmin1 from '../assets/img/sisAdmin1.png';
 import sisAdmin2 from '../assets/img/sisAdmin2.png';
+import imagesApp1 from '../assets/img/imagesApp1.png';
+import imagesApp2 from '../assets/img/imagesApp2.png';
+import imagesApp3 from '../assets/img/imagesApp3.png';
 
 export const Proyects = [
     {
@@ -31,6 +34,16 @@ export const Proyects = [
         desc: 'Portafolio es una landing page para poder mostrar mi trabajo.',
         urlGit: 'https://github.com/MarianoHuitron/portafolio/',
         urlLive: 'https://marianohuitron.com/'
+    },
+    {
+        id: '4507',
+        name: 'Images App',
+        mainImage: imagesApp1,
+        images: [imagesApp1, imagesApp2, imagesApp3],
+        tecs: 'React / Redux / NodeJs / MongoDB',
+        desc: 'Images app es una aplicación de imagenes que realicé, permite crearse una cuenta y subir nuesteras imagenes para tenerlas guardadas.',
+        urlGit: 'https://github.com/MarianoHuitron/images-app-mern-backend/',
+        urlLive: 'https://react-unsplash-images.herokuapp.com/'
     },
     {
         id: '7896',
