@@ -13,6 +13,7 @@ import sisAdmin2 from '../assets/img/sisAdmin2.png';
 import imagesApp1 from '../assets/img/imagesApp1.png';
 import imagesApp2 from '../assets/img/imagesApp2.png';
 import imagesApp3 from '../assets/img/imagesApp3.png';
+import todoApp from '../assets/img/todoApp.png';
 
 export const Proyects = [
     {
@@ -54,6 +55,16 @@ export const Proyects = [
         desc: 'Una aplicación móvil tipo e-commerce para una panadería. Permite realizar pedidos y hacer pagos online mediante Stripe.',
         urlGit: 'https://github.com/MarianoHuitron/pedidos-app-front/',
         urlLive: null
+    },
+    {
+        id: '4025',
+        name: 'TODO App',
+        mainImage: todoApp,
+        images: [todoApp],
+        tecs: 'React',
+        desc: 'Aplicación de tareas',
+        urlGit: 'https://github.com/MarianoHuitron/todo-app-react',
+        urlLive: 'https://peaceful-kare-dec74b.netlify.app/'
     },
     {
         id: '1011',
