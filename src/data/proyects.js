@@ -14,10 +14,21 @@ import imagesApp1 from '../assets/img/imagesApp1.png';
 import imagesApp2 from '../assets/img/imagesApp2.png';
 import imagesApp3 from '../assets/img/imagesApp3.png';
 import todoApp from '../assets/img/todoApp.png';
+import recipes from '../assets/img/recipes1.png';
 
 export const Proyects = [
     {
-        id: '1253',
+        id: '1111',
+        name: 'Recetas',
+        mainImage: recipes,
+        images: [recipes],
+        tecs: 'React',
+        desc: 'Aplicación web de recetas de comida consumiendo la api TheMealDB.',
+        urlGit: 'https://github.com/MarianoHuitron/recipes-app',
+        urlLive: 'https://keen-goldwasser-5e35cd.netlify.app/'
+    },
+    {
+        id: '1112',
         name: 'Rutaz App',
         mainImage: rutaz,
         images: [rutaz, rutaz2, rutaz3],
@@ -27,7 +38,7 @@ export const Proyects = [
         urlLive: null
     },
     {
-        id: '4506',
+        id: '1113',
         name: 'Portafolio',
         mainImage: portafolio,
         images: [portafolio],
