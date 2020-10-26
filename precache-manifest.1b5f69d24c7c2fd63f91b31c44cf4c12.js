@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3a84b8ac5e5077851273503fefc6e25a",
+    "revision": "f3fdf163fb7844c6f0d17c4ad2a6ae5c",
     "url": "/index.html"
   },
   {
-    "revision": "5f88b1beaf963e5acae2",
+    "revision": "83a44a6bb6157194490b",
     "url": "/static/css/2.ea474690.chunk.css"
   },
   {
-    "revision": "22adf7d5c46a7780791f",
-    "url": "/static/css/main.3c9dd5e7.chunk.css"
+    "revision": "06ba69a43e980ba071ab",
+    "url": "/static/css/main.a3e33441.chunk.css"
   },
   {
-    "revision": "5f88b1beaf963e5acae2",
-    "url": "/static/js/2.327058f2.chunk.js"
+    "revision": "83a44a6bb6157194490b",
+    "url": "/static/js/2.460226ec.chunk.js"
   },
   {
     "revision": "362f6489092f7ae00385806837b5cbde",
-    "url": "/static/js/2.327058f2.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.460226ec.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "22adf7d5c46a7780791f",
-    "url": "/static/js/main.75609b62.chunk.js"
+    "revision": "06ba69a43e980ba071ab",
+    "url": "/static/js/main.52e986e6.chunk.js"
   },
   {
     "revision": "4f2b1704eab49d50853b",
@@ -70,6 +70,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "32f377660daac4717e858ce322941710",
     "url": "/static/media/pedidosApp2.32f37766.png"
+  },
+  {
+    "revision": "34709d7640c06d53f98d8f48e5ce0779",
+    "url": "/static/media/recipes1.34709d76.png"
   },
   {
     "revision": "298f0f36c079f479d2a4d95d6662be9a",
