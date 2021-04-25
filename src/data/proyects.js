@@ -15,6 +15,7 @@ import imagesApp2 from '../assets/img/imagesApp2.png';
 import imagesApp3 from '../assets/img/imagesApp3.png';
 import todoApp from '../assets/img/todoApp.png';
 import recipes from '../assets/img/recipes1.png';
+import sanJose from '../assets/img/sanjose.png';
 
 export const Proyects = [
     {
@@ -106,5 +107,15 @@ export const Proyects = [
         desc: 'Sistema de administración de pedidos realizado como proyecto escolar.',
         urlGit:  'https://github.com/MarianoHuitron/sistema-pedidos-pan',
         urlLive: null
+    },
+    {
+        id: '4521',
+        name: 'Web Panadería San José',
+        mainImage: sanJose,
+        images: [sanJose],
+        tecs: 'HTML / CSS / PHP',
+        desc: 'Página web para panadería San José',
+      //  urlGit:  'https://github.com/MarianoHuitron/sistema-pedidos-pan',
+        urlLive: 'https://panaderia-web.herokuapp.com/'
     }
 ]
