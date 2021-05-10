@@ -16,6 +16,7 @@ import imagesApp3 from '../assets/img/imagesApp3.png';
 import todoApp from '../assets/img/todoApp.png';
 import recipes from '../assets/img/recipes1.png';
 import sanJose from '../assets/img/sanjose.png';
+import dados from '../assets/img/dados.png';
 
 export const Proyects = [
     {
@@ -77,6 +78,16 @@ export const Proyects = [
         desc: 'Aplicación de tareas',
         urlGit: 'https://github.com/MarianoHuitron/todo-app-react',
         urlLive: 'https://peaceful-kare-dec74b.netlify.app/'
+    },
+    {
+        id: '58823',
+        name: 'Aplicación lanza dados',
+        mainImage: dados,
+        images: [dados],
+        tecs: 'React / Socket.io',
+        desc: 'Aplicación web para lanzar un dado, permite que varios usuarios se conecten y tengan turnos para tirar el dado',
+        urlGit:  'https://github.com/MarianoHuitron/lanza-dados',
+        urlLive: 'https://infallible-lamport-9012f1.netlify.app/'
     },
     {
         id: '1011',
